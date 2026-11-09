@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<TITLE>zamovlennya</TITLE>
+<meta charset=UTF-8>
+</HEAD>
+<BODY>
+<h2>Завдання 4 - замовлення</h2>
+<form action="done.htm">
+Номер рахунку: <input name="rah"><br>
+Особистий номер: <input name="nomer"><br>
+Товари:<br>
+<select name="tovar" size="4" multiple>
+<option value="1">Ноутбук
+<option value="2">Монітор
+<option value="3">Клавіатура
+<option value="4">Миша
+</select><br>
+Коментар:<br>
+<textarea name="kom" cols="30" rows="2"></textarea><br>
+Оплата:
+<input type="radio" name="opl" value="1" checked>готівка
+<input type="radio" name="opl" value="2">безготівка<br>
+Додатково:
+<input type="checkbox" name="zal">залишок на рахунку
+<input type="checkbox" name="vyp">останні виплати<br>
+<input type="submit" value="Відправити">
+</form>
+</BODY>
+</HTML>
